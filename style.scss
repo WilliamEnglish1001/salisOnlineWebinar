@@ -1,0 +1,112 @@
+// fonts start
+@font-face {
+  font-family: "bold-font";
+  src: url("/font/titrbold/BTitrBold.eot");
+  src: url("/font/titrbold/BTitrBold.eot?#iefix") format("embedded-opentype"),
+    url("/font/titrbold/BTitrBold.woff") format("woff"),
+    url("/font/titrbold/BTitrBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "zar-font";
+  src: url("/font/zar/Zar.eot") format("embedded-opentype");
+  src: url("/font/zar/.eot?#iefix") format("embedded-opentype"),
+    url("/font/zar/Zar.woff") format("woff"),
+    url("/font/zar/Zar.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lale-font";
+  src: url("/font/lale/Lalezar-Regular.otf") format("embedded-opentype");
+  src: url("/font/lale/Lalezar-Regular.otf?#iefix") format("embedded-opentype"),
+    url("/font/lale/Lalezar-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "kamran-font";
+  src: url("/font/kamran/Far_KamrnBd.ttf") format("truetype");
+}
+// fonts End
+
+// font variables start
+$bold-font: "bold-font";
+$zar-font: "zar-font";
+$lale-font: "lale-font";
+$kamran-font: "kamran-font";
+// font variables end
+
+// font classes start
+.bold-font {
+  font-family: $bold-font;
+  font-size: 20px;
+  color: black;
+}
+.zar-font {
+  font-family: $zar-font;
+}
+
+.lale-font {
+  font-family: $lale-font;
+  color: #000;
+}
+.kamran-font {
+  font-family: $kamran-font;
+  color: #000;
+  font-size: 26px;
+  font-weight: bold;
+}
+.english-bold {
+  font-family: "Courgette", cursive;
+  font-size: 40px;
+}
+// font classes end
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.icon-color {
+  // color: #ff6e3a;
+  color: #ff8e3f;
+}
+
+.hiden-button {
+  background-color: #ff8e3f;
+}
+
+.navbar-color {
+  background-color: #52d2bc;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 5px rgb(141, 141, 141);
+}
+
+.cal-hover:hover {
+  color: #52d2bc;
+  text-decoration: none;
+}
+
+.teacher-img {
+  width: 200px;
+  height: 200px;
+}
+
+.teacher-border {
+  border-radius: 50%;
+}
+
+.border-r {
+  border-radius: 20px;
+}
+
+// body background
+
+body {
+  background-image: url("https://uupload.ir/files/cvy_bg.jpg");
+}
+.jumbotron {
+  background: rgb(199, 198, 198); /* This is for ie8 and below */
+  background: rgba(199, 198, 198, 0.7);
+}
